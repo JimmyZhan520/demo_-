@@ -1,0 +1,36 @@
+ *{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body{
+	font:14px Verdana, Arial, Helvetica, sans-serif;
+}
+
+div#top{
+  height: 520px;
+  min-width: 1000px;
+  background-color: #f7f7f7;
+}
+
+div .clock{
+	float: left;
+	height: 100%;
+	position: relative;
+}
+
+div#mid{
+	width: 40%;
+	cursor: pointer;
+
+}
+
+div#left,#right{
+	width: 30%;
+	cursor: pointer;
+}
+
+#myCanvas1,#myCanvas2,#myCanvas3{
+	position: absolute;
+}

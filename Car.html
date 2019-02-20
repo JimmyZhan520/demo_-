@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>汽车的仪表盘</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="canvas实现汽车仪表盘">
+    <meta name="keywords" content="2D,仪表盘，canvas">
+    <meta name="author" content="Jimmy">
+    <link rel="stylesheet" type="text/css" href="css/top.css">
+    <link rel="stylesheet" type="text/css" href="css/bottom.css">
+</head>
+<body>
+    <!-- 表盘部分 -->
+    <div id="top">
+
+       <div class="clock" id="left">
+       	<canvas id="myCanvas1" width="400" height="500">Your Browser dosen't match canvas!</canvas>
+       </div>
+
+       <div class="clock" id="mid">
+       	<canvas id="myCanvas2" width="460" height="500">Your Browser dosen't match canvas!</canvas>
+       </div>
+
+       <div class="clock" id="right">
+       	<canvas id="myCanvas3" width="400" height="500">Your Browser dosen't match canvas!</canvas>
+       </div>
+
+    </div>
+   <!-- 拉动条部分 -->
+   <div id="bottom">
+   	   <div class="test_div">
+         <!-- <canvas id="slider" width="800" height="200"></canvas> -->   
+         <p id="Number"></p>      
+         <input type="range" id="myRange"></input>
+
+       </div>
+   	   </div>
+   </div>
+   <script type="text/javascript" src="javascript/circle.js"></script>
+   <script type="text/javascript" src="javascript/circle_middle.js"></script> 
+   <script type="text/javascript" src="javascript/circle_right.js"></script>
+   <script type="text/javascript" src="javascript/move.js"></script>
+   <script type="text/javascript" src="javascript/jquery-2.2.4.min.js"></script>
+</body>
+</html>
