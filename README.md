@@ -3,9 +3,9 @@
 ##主要技术：
 -Canvas的应用
 -JavaScript的滑动条制作
-##HTML关键代码
-、、、
-<div id="top">
+## HTML关键代码
+```
+  <div id="top">
 
        <div class="clock" id="left">
        	<canvas id="myCanvas1" width="400" height="500">Your Browser dosen't match canvas!</canvas>
@@ -29,9 +29,9 @@
 
        </div>
    	   </div>
-       、、、
-       ##JS部分代码
-       、、、
+```
+## JS部分代码
+   ```
        // 第七个圆
 var gr_7 = cxt.createLinearGradient(0,230,0,270);
 
@@ -112,5 +112,5 @@ cxt.font = 'Bold 24px Arial';
 cxt.fillText('OIL',-20,70);
 cxt.closePath();
 cxt.restore();
-、、、
+```
 -这是一个汽车仪表盘demo，用了一个下午时间去学习Canvas并完成。效果不算特别完美，有很多需要改进的地方。若有更好建议与想法，欢迎issue和给出建议，希望和大家一起共同进步。谢谢。
